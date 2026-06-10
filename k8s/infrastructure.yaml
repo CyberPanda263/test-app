@@ -94,7 +94,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: test-app.binaro.uno
+  - host: test-app.barbariska.fun
     http:
       paths:
       - path: /
