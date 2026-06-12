@@ -116,7 +116,7 @@ spec:
       containers:
       - name: backend
         # Tekton знайде цей рядок і змінить 'main' на хеш збірки
-        image: registry.registry.svc.cluster.local:5000/test-app:main
+        image: registry.registry.svc.cluster.local:5000/test-app:build-run-395c9
         imagePullPolicy: IfNotPresent
         ports: [{ containerPort: 3001 }]
         env:
